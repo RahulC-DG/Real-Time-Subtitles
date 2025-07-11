@@ -1,0 +1,24 @@
+{
+  "name": "real-time-subtitles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^37.2.1"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^4.9.1",
+    "dotenv": "^17.2.0",
+    "electron-store": "^10.1.0",
+    "ws": "^8.18.3"
+  }
+}
